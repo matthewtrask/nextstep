@@ -1,0 +1,445 @@
+﻿
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+
+
+/*================================
+    GENERAL STYLES
+==================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+a{
+  text-decoration: none;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.about p{
+    font-size:25px;
+    margin: 10px auto 10px auto;
+    font-family:'Raleway';
+    font-weight: lighter;
+    color:white;
+   
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    background-color: rgb(0, 0, 0);
+    border-color: transparent;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight:lighter;
+}
+
+    .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+.navbar-brand img {
+  padding-top:10px;
+}
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+#home {
+    background: url(../img/home.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 635px;
+}
+    /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+    #home .overlay {
+        padding-top: 140px;
+        background-color: rgba(0, 0, 0,0.65); /*.65 opacity of the color so that background image is visible*/
+        min-height: 635px;
+        color: #fff;
+    }
+
+    #home h1 {
+        padding-top: 50px;
+        font-weight: 900;
+        font-size: 120px;
+        font-family: 'Browallia New';
+    }
+     #home h2{
+      font-family:'Raleway';
+      font-weight:lighter;
+      font-size:28px;
+      margin-left: 20px;
+      margin-right:20px;
+
+    }
+    #about {
+    background: url(../img/6.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 350px;
+    margin-top:60px;
+
+    }
+#about h1{
+
+        font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+        color:white;
+        text-align:center;
+       padding-top:125px;
+       
+
+
+    }
+    #resources {
+    background: url(../img/9.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 350px;
+    margin-top:60px;
+}
+#resources h1{
+       font-weight: 900;
+        font-size: 100px;
+        font-family: 'Browallia New';
+        color:white;
+        text-align:center;
+       padding-top:125px;
+     }
+
+.resources p{
+    font-size:25px;
+    margin: 10px auto 10px auto;
+    font-family:'Raleway';
+    font-weight: lighter;
+    color:white;
+}
+/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+#four{
+  padding-top: 40px;
+  margin-left:40px;
+  float:left;
+  font-family:'Roboto';
+  font-weight:lighter;
+  font-size:18px;
+  width:33%;
+
+}
+#four a{
+  color:black;
+  font-family: 'Roboto';
+  font-weight:lighter;
+}
+#two{
+  padding-top: 40px;
+  float:left;
+  font-family:'Roboto';
+  font-weight:lighter;
+  font-size:18px;
+  padding-left:20px;
+  width:33%;
+  display:inline-block;
+}
+#two a{
+  color:black;
+  font-family: 'Roboto';
+  font-weight:lighter;
+}
+#trade{
+  padding-top:40px;
+    float:left;
+  font-family:'Roboto';
+  font-weight:lighter;
+  font-size:18px;
+  padding-left:20px;
+  width:33%;
+  display:inline-block;
+}
+#trade a{
+  color:black;
+  font-family: 'Roboto';
+  font-weight:lighter;
+}
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(35, 133, 161);
+    color: #fff;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.blue-bold-btn {
+background-color:transparent;
+    border: 2px solid white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: block;
+  max-width: 240px;
+  width: 100%;
+  padding: 0 20px;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 20px;
+ -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius:5px;
+    display:block;
+    cursor:default;
+    font-family:helveticaneuecyrbold;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-decoration: none;
+    float:left;
+}
+.blue-bold-btn i {
+  margin-right: 16px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.blue-bold-btn:hover {
+  background-color:rgba(0, 0, 0, 1);
+  color: rgba(255,255,255,1);
+}
+.blue-bold-btn:focus {
+  background: transparent;
+  color: #ff6c29;
+}
+
+ .blue-bold-btn-2 {
+background-color:transparent;
+    border: 2px solid white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: block;
+  max-width: 240px;
+  width: 100%;
+  padding: 0 20px;
+  line-height: 50px;
+  color: #ffffff;
+  font-size: 20px;
+ -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius:5px;
+    display:block;
+    cursor:default;
+    font-family:helveticaneuecyrbold;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-decoration: none;
+    float:right;
+}
+.blue-bold-btn-2 i {
+  margin-right: 16px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.blue-bold-btn-2:hover {
+  background-color:rgba(0, 0, 0, 1);
+  color: rgba(255,255,255,1);
+}
+.blue-bold-btn-2:focus {
+  background: transparent;
+  color: #ff6c29;
+}
+
+#contact{
+  background-color:transparent;
+  margin-top:120px;
+  font-color:rgba(35, 133, 161);
+  font-family:inherit;
+  padding-bottom:60px;
+}
+
+.icon{
+  background-color:transparent;
+  border-color: (0, 42, 64, 1);
+}
+.modal-open {
+  overflow: hidden;
+}
+.modal {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 5000;
+display:block; /*REMOVE THIS LINE*/
+overflow: auto;
+overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index:3000;
+  background-color: #000000;
+}
+#myModal{
+  z-index:3000;
+  background-color:; 
+
+}
+#myModal-header{
+background-color:transparent;
+
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.modal-backdrop.in {
+  opacity: 0.4;
+  filter: alpha(opacity=50);
+}
+.modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.428571429px;
+}
+.modal-header .close {
+  margin-top: -2px;
+}
+.modal-title {
+  margin: 0;
+  line-height: 1.428571429;
+}
+.modal-body {
+  position: relative;
+  padding: 20px;
+}
+.modal-footer {
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-lg {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 560px) {
+  
+  #myModal .modal-dialog  {width:420px;}
+
+}
+#sign-modal {
+  z-index: 3000;
+  }
